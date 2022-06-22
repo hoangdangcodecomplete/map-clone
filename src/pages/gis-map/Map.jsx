@@ -224,7 +224,6 @@ const DamageAssessment = () => {
 
   document.addEventListener("click", (e) => handleCheckMousePos(e));
 
-  console.log("listPositionDraw", listPositionDraw);
   return (
     <Map
       center={center}
